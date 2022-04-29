@@ -1,7 +1,37 @@
 body {
+  color: #323238 !important;
   background-color: #E6EFF6 !important;
+}
+
+a {
+  color: #323238 !important;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: white !important;
 }
 
 .card-img-top {
   padding: 3rem 7rem 1rem 7rem;
+}
+
+.card {
+  box-shadow: 0 0 5px 0 #dadadd;
+}
+
+.card:hover {
+  box-shadow: 5px 50px 25px 5px #c2C2C3;
+}
+
+.card-text {
+  color: #4F5B6E !important;
+}
+
+.btn {
+  transition: all 200ms linear;
+}
+
+.btn:hover {
+  box-shadow: 0px 4px 4px 0px #B7CDE1;
 }/*# sourceMappingURL=styling.css.map */
